@@ -17,6 +17,7 @@ import (
 	"unsafe"
 )
 
+// NewUuid 创建uuid
 func NewUuid() string {
 	uuid := uuid2.New()
 	return uuid.String()
