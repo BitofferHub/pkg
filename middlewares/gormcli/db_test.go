@@ -2,8 +2,8 @@ package gormcli
 
 import (
 	"context"
-	"github.com/bitstormhub/bitstorm/pkg/constant"
-	"github.com/bitstormhub/bitstorm/pkg/middlewares/log"
+	"github.com/BitofferHub/pkg/constant"
+	"github.com/BitofferHub/pkg/middlewares/log"
 	"testing"
 	"time"
 )

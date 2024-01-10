@@ -3,7 +3,7 @@ package lock
 import (
 	"errors"
 	"fmt"
-	"github.com/bitstormhub/bitstorm/pkg/middlewares/cache"
+	"github.com/BitofferHub/pkg/middlewares/cache"
 	"github.com/google/uuid"
 	"golang.org/x/net/context"
 	"golang.org/x/sync/singleflight"

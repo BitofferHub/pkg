@@ -2,7 +2,7 @@ package mq
 
 import (
 	"context"
-	"github.com/bitstormhub/bitstorm/pkg/middlewares/log"
+	"github.com/BitofferHub/pkg/middlewares/log"
 	"github.com/segmentio/kafka-go"
 )
 

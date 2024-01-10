@@ -3,7 +3,7 @@ package log
 import (
 	"context"
 	"fmt"
-	"github.com/bitstormhub/bitstorm/pkg/constant"
+	"github.com/BitofferHub/pkg/constant"
 	"github.com/smartystreets/goconvey/convey"
 	"testing"
 )

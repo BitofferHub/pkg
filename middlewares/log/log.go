@@ -2,7 +2,7 @@ package log
 
 import (
 	"context"
-	"github.com/bitstormhub/bitstorm/pkg/constant"
+	"github.com/BitofferHub/pkg/constant"
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

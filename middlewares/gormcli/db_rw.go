@@ -2,7 +2,7 @@ package gormcli
 
 import (
 	"fmt"
-	"github.com/bitstormhub/bitstorm/pkg/middlewares/log"
+	"github.com/BitofferHub/pkg/middlewares/log"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/plugin/dbresolver"
