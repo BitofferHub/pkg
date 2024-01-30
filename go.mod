@@ -3,7 +3,6 @@ module github.com/BitofferHub/pkg
 go 1.20
 
 require (
-	github.com/BitofferHub/pkg v0.0.0-20240103145720-04e282b02bbb
 	github.com/bwmarrin/snowflake v0.3.0
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-kratos/kratos/contrib/registry/etcd/v2 v2.0.0-20240105030612-34d9666e0e1b

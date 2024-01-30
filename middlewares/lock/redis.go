@@ -247,6 +247,10 @@ func (r *RedisLock) delayExpire(ctx context.Context, expireSeconds int64) error 
 	return nil
 }
 
+func (r *RedisLock) DelayExpire(ctx context.Context, expireSeconds int64) error {
+	return r.delayExpire(ctx, expireSeconds)
+}
+
 // singleflight模式
 func (r *RedisLock) blockingLock1(ctx context.Context) error {
 	// 阻塞模式等锁时间上限
