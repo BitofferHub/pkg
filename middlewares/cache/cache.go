@@ -93,6 +93,11 @@ func GetRedisCli() *Client {
 	return client
 }
 
+// GetRedisBaseConn 获取官方redis连接
+func GetRedisBaseConn() *redis.Client {
+	return redisConn
+}
+
 // pipeline 批量操作
 func (client *Client) Pipeline(ctx context.Context, pipeFunc func(pipe redis.Pipeliner) error) error {
 	conn := redisConn.Conn()
