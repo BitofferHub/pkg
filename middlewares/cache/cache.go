@@ -94,7 +94,7 @@ func GetRedisCli() *Client {
 }
 
 // GetRedisBaseConn 获取官方redis连接
-func GetRedisBaseConn() *redis.Client {
+func (client *Client) GetRedisBaseConn() *redis.Client {
 	return redisConn
 }
 
