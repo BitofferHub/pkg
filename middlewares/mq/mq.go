@@ -59,6 +59,18 @@ func WithOffset(offset int64) Option {
 	}
 }
 
+func WithGroupID(groupID string) Option {
+	return func(o *Options) {
+		o.groupID = groupID
+	}
+}
+
+func WithPartition(partition int) Option {
+	return func(o *Options) {
+		o.partition = partition
+	}
+}
+
 func newOptions(opts ...Option) Options {
 	options := Options{
 		brokers: []string{"127.0.0.1:9092"},
